@@ -20,6 +20,13 @@ Install and debug iPhone apps without using Xcode. Designed to work on unjailbro
 * Optional device id, useful when you have more than one iPhone/iPad connected to your computer
 * `<arguments>` are passed as argv to the running app.
 * `<gdb_arguments>` are passed to gdb.
+* 
+
+## multiplefruitstrap.py
+
+* Run with `python multiple_fruitstrap.py --app <path to .app>`
+* Will install the app supplied as an argument to all connected devices, automatically detecting them
+* Simplifies use of fruitstrap
 
 ## Demo
 
